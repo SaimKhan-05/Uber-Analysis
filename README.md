@@ -1,9 +1,9 @@
-# 🚖 Uber Trips Data Analysis – 2015 | Power BI Project
-📌 Project Overview
+#  Uber Trips Data Analysis – 2015 | Power BI Project
+ Project Overview
 This project analyzes Uber trip pickup records from January to December 2015 to understand demand trends, seasonal patterns, base-wise performance, and fleet deployment efficiency. The dataset contains dispatch base details, pickup timestamps, affiliated base numbers, and pickup locations.
 Although fare, distance, and passenger details are not included, the dataset provides strong insights into trip volume behavior, time-based patterns, and operational performance.
 
-📂 Dataset Summary
+ Dataset Summary
 
 
 Total Records: 355
@@ -39,8 +39,8 @@ Best Use Case: Trip trends, demand insights, and base-wise analysis
 
 
 
-🛠️ Methodology
-✅ 1️⃣ Data Cleaning
+ Methodology
+ Data Cleaning
 
 
 Checked dataset structure, dimensions, and column attributes
@@ -59,7 +59,7 @@ Corrected and validated data types to avoid analytical errors
 
 
 
-🔄 2️⃣ Data Transformation
+ Data Transformation
 From the pickup datetime column, the following features were extracted:
 
 
@@ -103,12 +103,12 @@ location
 
 These transformations converted raw data into structured, analysis-ready information.
 
-📊 3️⃣ Data Visualization & Dashboard
+ Data Visualization & Dashboard
 Developed a Power BI Dashboard to bring insights to life.
-⭐ Key KPI Cards
+ Key KPI Cards
 KPIInsightTotal Trips – 4MOverall Uber trips completed in the dataset periodMax Trips – 46KHighest trips recorded in a single periodAverage Trips – 11.67KAverage demand levelMax Active Vehicles – 4395Maximum vehicles deployedTotal Base Numbers – 6Total contributing operational bases
 
-📈 Monthly Trip Trend (Line Chart)
+ Monthly Trip Trend (Line Chart)
 
 
 January starts around 263K
@@ -129,9 +129,9 @@ Decline from October onwards
 Very low demand in Nov–Dec
 
 
-📌 Insight: Strong seasonal demand — summer has highest rides, year-end lowest.
+ Insight: Strong seasonal demand — summer has highest rides, year-end lowest.
 
-🏢 Trips by Base Number (Bar Chart)
+ Trips by Base Number (Bar Chart)
 
 
 B02664 – Highest (~2M)
@@ -152,9 +152,9 @@ B02675 – ~194K
 B02512 – Lowest (~94K)
 
 
-📌 Insight: B02664 is the backbone of Uber operations.
+ Insight: B02664 is the backbone of Uber operations.
 
-📅 Monthly Trip Summary Table
+ Monthly Trip Summary Table
 Helps identify:
 
 
@@ -167,7 +167,7 @@ Base contributions each month
 Overall performance
 
 
-📌 Example:
+ Example:
 
 
 Highest Month: July – 507,543 trips
@@ -177,7 +177,7 @@ Lowest Month: December – 57,646 trips
 
 
 
-🚗 Active Vehicles by Base (Donut Chart)
+ Active Vehicles by Base (Donut Chart)
 
 
 B02664 – 46.95%
@@ -198,9 +198,9 @@ B02675 – 4.88%
 B02512 – 2.84%
 
 
-📌 Insight: More vehicles = more trips = stronger operations.
+ Insight: More vehicles = more trips = stronger operations.
 
-📊 Monthly Active Vehicles (Bar Chart)
+ Monthly Active Vehicles (Bar Chart)
 
 
 Jan: 32K → Feb: 45K → Apr: 56K
@@ -212,9 +212,9 @@ Stable between 47K–53K till September
 Drop begins October → very low in Nov & Dec
 
 
-📌 Insight: Vehicle deployment follows demand perfectly.
+ Insight: Vehicle deployment follows demand perfectly.
 
-🎯 Interactive Filters
+ Interactive Filters
 
 
 Month slicer for focused analysis
@@ -224,10 +224,10 @@ Dynamic visualization refresh
 
 
 
-✅ Conclusion
+ Conclusion
 Uber’s 2015 trip analysis highlights clear seasonal demand patterns, operational dominance of a few bases, and strong correlation between vehicle availability and ride demand.
 
-🔍 Key Insights
+ Key Insights
 ✔ Peak Demand: June–August
 ✔ Lowest Demand: October–December
 ✔ Top Performing Base: B02664
@@ -240,5 +240,5 @@ Uber’s 2015 trip analysis highlights clear seasonal demand patterns, operation
  <img width="1383" height="731" alt="Dashboard (3)" src="https://github.com/user-attachments/assets/e6614ea5-8e6c-4b17-9696-af3325526961" />
 
 
-🔗 Project & Resources
-📂 Dataset Link:https://drive.google.com/file/d/1uj0xGqt3t7w6AgoTNq8SksR2Ci3bbWJ1/view
+ Project & Resources
+ Dataset Link:https://drive.google.com/file/d/1uj0xGqt3t7w6AgoTNq8SksR2Ci3bbWJ1/view
